@@ -291,7 +291,6 @@ h1 h2 h3 h4 h5 h6 p {
 .services__text {
 
     font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -1050,12 +1049,92 @@ input[type="checkbox"]:checked+.checkbox>.checkbox__span {
 
 }
 
+@media (min-width: 320px) {
+
+    .page-header {
+        padding: 16px;
+    }
+
+    .header-container {
+        padding: 0;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .address-list {
+        display: none;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .services__title {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+
+
+    .services__text {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+    .services__list {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services {
+        padding: 96px 16px 16px;
+    }
+
+
+    .icon__list {
+        display: none;
+
+    }
+
+    .team__list {
+        flex-direction: column;
+    }
+
+    .portfolio__image {
+        width: 288px;
+        height: 400px;
+    }
+
+    .portfolio__list {
+        flex-direction: column;
+    }
+
+    .footer__items {
+        flex-direction: column;
+    }
+
+    .logo-main-footer {
+        text-align: center;
+    }
+
+}
+
+
+
 @media (max-width: 1150px) {
     .container.header-container {
         justify-content: space-around;
     }
 
-    .services__list {}
+
 
     .icon__list {
         width: 200px;
@@ -1063,7 +1142,7 @@ input[type="checkbox"]:checked+.checkbox>.checkbox__span {
     }
 
     .services__text {
-        font-size: 12px;
+
         max-width: 240px;
     }
 
