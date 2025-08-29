@@ -15,6 +15,8 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/modal.js" defer></script>
+    <script src="js/burger.js" defer></script>
     <title>Document</title>
 </head>
 
@@ -40,6 +42,42 @@
                                 111-11-11</a></li>
                     </ul>
                 </address>
+                <div class="header-menu">
+                    <div class="header-menu__top">
+                        <nav class="nav nav--active">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a class="nav__link active" href="./index.html">Studio</a></li>
+                                <li class="nav__item"><a class="nav__link" href="">Portfolio</a></li>
+                                <li class="nav__item"><a class="nav__link" href="">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-menu__bottom">
+                        <div class="header-menu__contacts">
+                            <ul class="address-list">
+                                <li class="address-list__item"><a class="address-list__link address-list__link--active"
+                                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                                <li class="address-list__item"><a class="address-list__link"
+                                        href="tel:+110001111111">+11 (000)
+                                        111-11-11</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-menu__social social">
+                            <a href="#" class="social__link">
+                                <img src="images/social/inst.svg" alt="">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="images/social/twitter.svg" alt="">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="images/social/fb.svg" alt="">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="images/social/linkedin.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <button class="navToggle">
                     <span></span>
                     <span></span>
@@ -116,7 +154,9 @@
                     <h2 class="team__title">Our Team</h2>
                     <ul class="team__list">
                         <li class="team__item">
-                            <img src="./images/img1.jpg" alt="Mark Guerrero" width="264" height="260">
+                            <img src="images/team/team-01@1x.jpg"
+                                srcset="images/team/team-01@1x.jpg 1x, images/team/team-01@2x.jpg 2x"
+                                alt="Mark Guerrero — Product Designer" width="264" height="260">
                             <div class="team__member">
                                 <h3 class="team__caption">Mark Guerrero</h3>
                                 <p class="team__text">Product Designer</p>
@@ -153,7 +193,9 @@
                             </div>
                         </li>
                         <li class="team__item">
-                            <img src="./images/img2.jpg" alt="Tom Ford" width="264" height="260">
+                            <img src="images/team/team-02@1x.jpg"
+                                srcset="images/team/team-02@1x.jpg 1x, images/team/team-02@2x.jpg 2x"
+                                alt="Mark Guerrero — Product Designer" width="264" height="260">
                             <div class="team__member">
                                 <h3 class="team__caption">Tom Ford</h3>
                                 <p class="team__text">Frontend Developer</p>
@@ -190,7 +232,9 @@
                             </div>
                         </li>
                         <li class="team__item">
-                            <img src="./images/img3.jpg" alt="Camila Garcia" width="264" height="260">
+                            <img src="images/team/team-03@1x.jpg"
+                                srcset="images/team/team-03@1x.jpg 1x, images/team/team-03@2x.jpg 2x"
+                                alt="Mark Guerrero — Product Designer" width="264" height="260">
                             <div class="team__member">
                                 <h3 class="team__caption">Camila Garcia</h3>
                                 <p class="team__text">Marketing</p>
@@ -227,7 +271,9 @@
                             </div>
                         </li>
                         <li class="team__item">
-                            <img src="./images/img4.jpg" alt="Daniel Wilson" width="264" height="260">
+                            <img src="images/team/team-04@1x.jpg"
+                                srcset="images/team/team-04@1x.jpg 1x, images/team/team-04@2x.jpg 2x"
+                                alt="Mark Guerrero — Product Designer" width="264" height="260">
                             <div class="team__member">
                                 <h3 class="team__caption">Daniel Wilson</h3>
                                 <p class="team__text">UI Designer</p>
@@ -273,7 +319,9 @@
                     <ul class="portfolio__list">
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img5.jpg" alt="portfolio-2" width="360" class="portfolio__image">
+                                <img src="images/portfolio/portfolio-01@1x.jpg"
+                                    srcset="images/portfolio/portfolio-01@1x.jpg 1x, images/portfolio/portfolio-01@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -286,7 +334,9 @@
                         </li>
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img6.jpg" alt="portfolio-2" width="360" class="portfolio__image">
+                                 <img src="images/portfolio/portfolio-02@1x.jpg"
+                                    srcset="images/portfolio/portfolio-02@1x.jpg 1x, images/portfolio/portfolio-02@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -299,7 +349,9 @@
                         </li>
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img7.jpg" alt="portfolio-3" width="360" class="portfolio__image">
+                                <img src="images/portfolio/portfolio-03@1x.jpg"
+                                    srcset="images/portfolio/portfolio-03@1x.jpg 1x, images/portfolio/portfolio-03@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -312,7 +364,9 @@
                         </li>
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img8.jpg" alt="portfolio-4" width="360" class="portfolio__image">
+                               <img src="images/portfolio/portfolio-04@1x.jpg"
+                                    srcset="images/portfolio/portfolio-04@1x.jpg 1x, images/portfolio/portfolio-04@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -325,7 +379,9 @@
                         </li>
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img9.jpg" alt="portfolio-5" width="360" class="portfolio__image">
+                                <img src="images/portfolio/portfolio-05@1x.jpg"
+                                    srcset="images/portfolio/portfolio-05@1x.jpg 1x, images/portfolio/portfolio-05@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -338,7 +394,9 @@
                         </li>
                         <li class="portfolio__item">
                             <div class="image__block">
-                                <img src="./images/img10.jpg" alt="portfolio-6" width="360" class="portfolio__image">
+                                 <img src="images/portfolio/portfolio-06@1x.jpg"
+                                    srcset="images/portfolio/portfolio-06@1x.jpg 1x, images/portfolio/portfolio-06@2x.jpg 2x"
+                                    alt="Mark Guerrero — Product Designer" width="360" height="300">
                                 <p class="portfolio__discription">14 Stylish and User-Friendly App Design Concepts ·
                                     Task
                                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -487,7 +545,6 @@
             </div>
         </div>
     </div>
-    <script src="js/modal.js"></script>
 </body>
 
 </html>
